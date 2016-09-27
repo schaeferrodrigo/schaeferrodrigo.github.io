@@ -6,7 +6,8 @@ Next adds
 
 
 * add  topics on the top of the sections "Resume" and ·"papers and other works"  
-*https://www.kaggle.com/
+* https://www.kaggle.com/
+* https://datasciencebr.com/
 
 useful sites for reference in html:
 
