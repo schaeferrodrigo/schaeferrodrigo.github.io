@@ -15,3 +15,4 @@ candidates to "adds"
 useful sites for reference in html:
 
 http://www.html5.showbizreal.com/Columnas/Atributos/meta_charset.html
+http://www.w3schools.com/charsets/
