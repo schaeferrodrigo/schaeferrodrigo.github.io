@@ -352,7 +352,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: python 2s ease;
 }
 .latex {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: latex 2s ease;
   	-webkit-animation: latex 2s ease;
 }
