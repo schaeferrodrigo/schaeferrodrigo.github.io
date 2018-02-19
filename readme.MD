@@ -118,5 +118,7 @@ Javascript Files:
 
 
 Thanks for downloading from Styleshout :)
-  
 
+Dicas
+  
+https://help.github.com/articles/search-engine-optimization-for-github-pages/
