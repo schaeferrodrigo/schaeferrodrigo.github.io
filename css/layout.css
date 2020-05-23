@@ -460,6 +460,22 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+/*-------------------------------------*/
+/* education section*/
+/*---------------------*/
+#education {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+
+#education a, #education a:visited  { color: #11ABB0; }
+#education a:hover, #education a:focus { color: #313131; }
+
+
+
 /* ------------------------------------------------------------------ */
 /* f. Portfolio Section
 /* ------------------------------------------------------------------ */
