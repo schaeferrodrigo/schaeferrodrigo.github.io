@@ -327,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .english {
-  	width: 65%;
+  	width: 85%;
   	-moz-animation: english 2s ease;
   	-webkit-animation: english 2s ease;
 }
@@ -342,7 +342,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: portuguese 2s ease;
 }
 .catalan {
-  	width: 70%;
+  	width: 85%;
   	-moz-animation: catalan 2s ease;
   	-webkit-animation: catalan 2s ease;
 }
@@ -360,6 +360,11 @@ ul#nav li.current a { color: #F06000; }
   	width: 30%;
   	-moz-animation: r 2s ease;
   	-webkit-animation: r 2s ease;
+}
+.c {
+  	width: 30%;
+  	-moz-animation: c++ 2s ease;
+  	-webkit-animation: c++ 2s ease;
 }
 
 @-moz-keyframes photoshop {
