@@ -362,10 +362,30 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: r 2s ease;
 }
 .c {
-  	width: 30%;
+  	width: 50%;
   	-moz-animation: c++ 2s ease;
   	-webkit-animation: c++ 2s ease;
 }
+
+.csharp {
+   width: 30%;
+   -moz-animation: csharp 2s ease;
+   -webkit-animation: csharp 2s ease;
+}
+
+.unity {
+   width: 30%;
+   -moz-animation: unity 2s ease;
+   -webkit-animation: unity 2s ease;
+}
+
+.opengl {
+   width: 30%;
+   -moz-animation: opengl 2s ease;
+   -webkit-animation: opengl 2s ease;
+}
+
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
