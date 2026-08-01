@@ -14,17 +14,16 @@
 
     <!-- Mobile Specific Metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<!-- CSS
       ================================================== -->
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/fontello/css/fontello.css">
+      <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/default.css">
-   	<link rel="stylesheet" href="css/layout.css">
+      <link rel="stylesheet" href="css/layout.css">
       <link rel="stylesheet" href="css/media-queries.css">
-      <link rel="stylesheet" href="css/magnific-popup.css">
-      <!-- Script
-      ================================================== -->
-     <script src="js/modernizr.js"></script>
      <!-- Favicons
    ================================================== -->
    <link rel="shortcut icon" href="favicon.png" >
@@ -32,9 +31,9 @@
 
  <body>
 
-<section id="pub">
+<a class="skip-link" href="#main">Skip to content</a>
 
-     <nav id="nav-wrap">
+<nav id="nav-wrap">
         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
       <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
@@ -42,12 +41,17 @@
            <li><a  href="index.html#home">Home</a></li>
            <li><a  href="index.html#about">About</a></li>
            <li><a href="resume.html#resume">Resume</a></li>
-           <li><a href="research.html#research">Research</a></li>
+           <li><a href="research.html">Research</a></li>
            <li class= "current"><a class="smoothscroll" href="#pub">Teaching</a></li>
-           <!--<li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>-->
            <li><a  href="index.html#contact">Contact</a></li>
         </ul> <!-- end #nav -->
      </nav>
+
+<main id="main">
+
+   <h1 class="visually-hidden">Teaching</h1>
+<section id="pub">
+
 
       <!-- Teaching
       ----------------------------------------------- -->
@@ -72,12 +76,12 @@
          <div class="nine columns main-col">
 
             <!-- 2025/26 -->
-            <div class="year-panel" data-year="2025-26">
+            <div class="year-panel" id="year-2025-26" data-year="2025-26">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Discrete Mathematics</h1>
+                     <h2>Discrete Mathematics</h2>
                      <p class="info"> (Cybersecurity Degree) ENTI-UB <span>&bull;</span> <em class="date">Sep 2025 - Feb 2026</em></p>
 
                      <p>Text Reference: <br>
@@ -92,7 +96,7 @@
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Probability and Statistics</h1>
+                     <h2>Probability and Statistics</h2>
                      <p class="info">(Cybersecurity Degree) ENTI-UB <span>&bull;</span> <em class="date">Sep 2025 - Feb 2026</em></p>
 
                      <p>Text Reference: <br>
@@ -107,12 +111,12 @@
             </div> <!-- 2025/26 end -->
 
             <!-- 2025 -->
-            <div class="year-panel" data-year="2025">
+            <div class="year-panel" id="year-2025" data-year="2025">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Computer Graphics</h1>
+                     <h2>Computer Graphics</h2>
                      <p class="info">(Game development Degree) ENTI-UB <span>&bull;</span> <em class="date">Feb 2025 - May 2025</em></p>
 
                      <p>Text Reference: <br>
@@ -130,7 +134,7 @@
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Mechanics</h1>
+                     <h2>Mechanics</h2>
                      <p class="info"> (Game development Degree) ENTI-UB <span>&bull;</span> <em class="date">Feb 2025 - May 2025</em></p>
 
                      <p>Text Reference: <br>
@@ -145,12 +149,12 @@
             </div> <!-- 2025 end -->
 
             <!-- 2024/25 -->
-            <div class="year-panel" data-year="2024-25">
+            <div class="year-panel" id="year-2024-25" data-year="2024-25">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Introduction to Statistics</h1>
+                     <h2>Introduction to Statistics</h2>
                      <p class="info"> (Game development Degree) ENTI-UB <span>&bull;</span> <em class="date">Sep 2024 - Jan 2025</em></p>
 
                      <p>Text Reference: <br>
@@ -165,7 +169,7 @@
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Animation Foundations</h1>
+                     <h2>Animation Foundations</h2>
                      <p class="info">(Game development Degree) ENTI-UB <span>&bull;</span> <em class="date">Sep 2024 - Jan 2025</em></p>
 
                      <p>Text Book: <br>
@@ -180,7 +184,7 @@
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Introduction to Programming</h1>
+                     <h2>Introduction to Programming</h2>
                      <p class="info">(Cybersecurity Degree) ENTI-UB <span>&bull;</span> <em class="date">Sep 2024 - Jan 2025</em></p>
 
                      <p>Text Book: <br>
@@ -195,19 +199,19 @@
             </div> <!-- 2024/25 end -->
 
             <!-- 2023/24 -->
-            <div class="year-panel" data-year="2023-24">
+            <div class="year-panel" id="year-2023-24" data-year="2023-24">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Geometric Theory of Dynamical Systems with  Computer</h1>
+                     <h2>Geometric Theory of Dynamical Systems with  Computer</h2>
                      <p class="info">Jagiellonian University <span>&bull;</span> <em class="date">Oct 2023 - Feb 2024</em></p>
 
                      <p>Text Book: <br>
                         Calculus of Invariant Manifolds - topological approach <br>
                         <i> Capinski and Zgliczynski </i><span>&bull;</span> to be published <br>
                         <br>
-                        Differential equations, dynamical systems, and an introduction to chaos <a href=" " target="_blank"> </a> <br>
+                        Differential equations, dynamical systems, and an introduction to chaos <br>
                         <i>Hirsch, Morris W.; Smale, Stephen; Devaney, Robert L. </i> <span>&bull;</span> 2nd ed. 2004. <br>
                      </p>
 
@@ -218,12 +222,12 @@
             </div> <!-- 2023/24 end -->
 
             <!-- 2023 -->
-            <div class="year-panel" data-year="2023">
+            <div class="year-panel" id="year-2023" data-year="2023">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Computational Dynamics</h1>
+                     <h2>Computational Dynamics</h2>
                      <p class="info">Jagiellonian University <span>&bull;</span> <em class="date">Feb 2023 - Jun 2023</em></p>
 
                      <p>Text Book: <br>
@@ -238,12 +242,12 @@
             </div> <!-- 2023 end -->
 
             <!-- 2022 -->
-            <div class="year-panel" data-year="2022">
+            <div class="year-panel" id="year-2022" data-year="2022">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Theoretical and Numerical Aspects of Celestial Mechanics</h1>
+                     <h2>Theoretical and Numerical Aspects of Celestial Mechanics</h2>
                      <p class="info">Jagiellonian University <span>&bull;</span> <em class="date">Feb 2022 - Jun 2022</em></p>
 
                      <p>Text Book: <br>
@@ -261,12 +265,12 @@
             </div> <!-- 2022 end -->
 
             <!-- 2020/21 -->
-            <div class="year-panel" data-year="2020-21">
+            <div class="year-panel" id="year-2020-21" data-year="2020-21">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Several Variable Calculus for master's students</h1>
+                     <h2>Several Variable Calculus for master's students</h2>
                      <p class="info">Uppsala Universitet <span>&bull;</span> <em class="date">Oct 2020 - Jan 2021</em></p>
 
                      <p>Text Book: <br>
@@ -281,16 +285,16 @@
             </div> <!-- 2020/21 end -->
 
             <!-- 2020 -->
-            <div class="year-panel" data-year="2020">
+            <div class="year-panel" id="year-2020" data-year="2020">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Ordinary Differential Equations II</h1>
+                     <h2>Ordinary Differential Equations II</h2>
                      <p class="info">Uppsala Universitet <span>&bull;</span> <em class="date">Jan 2020 - Mar 2020</em></p>
 
                      <p>Text Books:<br>
-                        Differential equations, dynamical systems, and an introduction to chaos <a href=" " target="_blank"> </a> <br>
+                        Differential equations, dynamical systems, and an introduction to chaos <br>
                         <i>Hirsch, Morris W.; Smale, Stephen; Devaney, Robert L. </i> <span>&bull;</span> 2nd ed. 2004. <br>
                         <br>
                         Ordinary differential equations and dynamical systems <br>
@@ -304,12 +308,12 @@
             </div> <!-- 2020 end -->
 
             <!-- 2019/20 -->
-            <div class="year-panel" data-year="2019-20">
+            <div class="year-panel" id="year-2019-20" data-year="2019-20">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Several Variable Calculus (Practical Sessions)</h1>
+                     <h2>Several Variable Calculus (Practical Sessions)</h2>
                      <p class="info">Uppsala Universitet <span>&bull;</span> <em class="date">Sep 2019 - Jan 2020</em></p>
 
                      <p>Text Book: <br>
@@ -324,12 +328,12 @@
             </div> <!-- 2019/20 end -->
 
             <!-- 2014 -->
-            <div class="year-panel" data-year="2014">
+            <div class="year-panel" id="year-2014" data-year="2014">
 
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Linear Algebra (In Portuguese)</h1>
+                     <h2>Linear Algebra (In Portuguese)</h2>
                      <p class="info">Universidade Federal do Rio de Janeiro <span>&bull;</span> <em class="date">Mar 2014 - Jul 2014</em></p>
 
                      <p>Text Book: <br>
@@ -343,7 +347,7 @@
                <div class="row item">
                   <div class="twelve columns">
 
-                     <h1>Calculus I (In Portuguese)</h1>
+                     <h2>Calculus I (In Portuguese)</h2>
                      <p class="info">Universidade Federal do Rio de Janeiro <span>&bull;</span> <em class="date">Mar 2014 - Jul 2014</em></p>
 
                      <p>Text Book:<br>
@@ -363,6 +367,8 @@
 
    </section> <!-- Teaching Section End-->
 
+   </main>
+
    <!-- footer
    ================================================== -->
    <footer>
@@ -372,10 +378,10 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="https://www.facebook.com/rodrigo.schaefer"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/Schaefer_RG"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-schaefer-30677666/?locale=en_US"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://github.com/schaeferrodrigo"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.facebook.com/rodrigo.schaefer" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="https://twitter.com/Schaefer_RG" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-schaefer-30677666/?locale=en_US" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               <li><a href="https://github.com/schaeferrodrigo" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul>
 
             <ul class="copyright">
@@ -385,7 +391,7 @@
 
          </div>
 
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#pub"><i class="icon-up-open"></i></a></div>
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" aria-label="Back to top" href="#pub"><i class="icon-up-open" aria-hidden="true"></i></a></div>
 
       </div>
 
@@ -395,12 +401,8 @@
    ================================================== -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
 
    <!-- Year filter
@@ -450,8 +452,17 @@
       }
 
       // teaching.html#year-2020 opens straight on that year.
+      // The panels carry real ids so the year links still work without
+      // JavaScript, which means the browser has already jumped to the
+      // panel by now -- and once the other panels are hidden that scroll
+      // position is meaningless, so reset it.
       var hash = window.location.hash.replace('#year-', '');
-      if (!hash || !selectYear(hash)) selectYear(defaultYear);
+      if (hash && selectYear(hash)) {
+         window.scrollTo(0, 0);
+      }
+      else {
+         selectYear(defaultYear);
+      }
 
    })();
    </script>

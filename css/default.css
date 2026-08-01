@@ -26,9 +26,9 @@ e. Others
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
 
-@import url("fonts.css");
-@import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
+/* Loaded as parallel <link> tags in each page's <head> instead of
+   @import -- imports are only discovered after this file parses, putting
+   three serialised round trips in front of every webfont. */
 
 /* ------------------------------------------------------------------
 /* b. Reset
