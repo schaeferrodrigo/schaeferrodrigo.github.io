@@ -140,18 +140,9 @@
 
 
 /*
- * FIXED for Font-Face Chrome Rendering
+ * Removed: a 2014 WebKit-only override that redeclared opensans-semibold and
+ * opensans-bold with SVG as their only source. Firefox now honours
+ * -webkit-min-device-pixel-ratio for web compatibility but dropped SVG font
+ * support, so the block overrode the good .woff declarations above and left
+ * every bold heading falling back to generic sans-serif in Firefox.
 ================================================================================ */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-
-   @font-face {
-   font-family: 'opensans-semibold';
-   src: url('fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
-   }
-
-   @font-face {
-   font-family: 'opensans-bold';
-   src: url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
-   }
-
-}
