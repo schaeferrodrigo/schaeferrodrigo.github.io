@@ -485,6 +485,64 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+/* ------------------------------------------------------------------ */
+/* d2. Teaching year filter
+/* Scoped to .teaching-wrap so research.html (also #pub) is untouched.
+/* ------------------------------------------------------------------ */
+#pub .teaching-wrap .year-nav {
+   list-style: none;
+   margin: 0;
+   padding-top: 9px;
+}
+#pub .teaching-wrap .year-nav li {
+   margin: 0;
+   padding: 0;
+   line-height: normal;
+}
+#pub .teaching-wrap .year-nav a,
+#pub .teaching-wrap .year-nav a:visited {
+   display: inline-block;
+   margin-bottom: 12px;
+   padding-bottom: 6px;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #838C95;
+   border-bottom: 3px solid transparent;
+   -webkit-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
+}
+#pub .teaching-wrap .year-nav a:hover,
+#pub .teaching-wrap .year-nav a:focus {
+   color: #313131;
+   border-bottom-color: #E8E8E8;
+}
+#pub .teaching-wrap .year-nav a:focus {
+   outline: 2px solid #11ABB0;
+   outline-offset: 4px;
+}
+#pub .teaching-wrap .year-nav a.active,
+#pub .teaching-wrap .year-nav a.active:visited,
+#pub .teaching-wrap .year-nav a.active:hover {
+   color: #313131;
+   border-bottom-color: #11ABB0;
+}
+
+#pub .teaching-wrap .year-panel .item {
+   margin-bottom: 30px;
+   padding-bottom: 18px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#pub .teaching-wrap .year-panel .item:last-child {
+   margin-bottom: 0;
+   border-bottom: none;
+}
+
+/* Panels only collapse once the toggle script has run. Without
+   JavaScript every year stays visible. */
+#pub .teaching-wrap.js-filter .year-panel { display: none; }
+#pub .teaching-wrap.js-filter .year-panel.active { display: block; }
 /*-------------------------------------*/
 /* education section*/
 /*---------------------*/

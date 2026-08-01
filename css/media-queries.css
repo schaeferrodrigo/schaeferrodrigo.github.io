@@ -234,8 +234,36 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
-      
+
    .bars { width: 100%; }
+
+
+   /* Teaching year filter
+   --------------------------------------------------------------------- */
+   #pub .teaching-wrap .year-nav-col {
+      padding-top: 0;
+      margin-bottom: 36px;
+   }
+   #pub .teaching-wrap .year-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-top: 0;
+   }
+   #pub .teaching-wrap .year-nav li { margin: 0 6px; }
+   #pub .teaching-wrap .year-nav a,
+   #pub .teaching-wrap .year-nav a:visited {
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+   }
+   #pub .teaching-wrap .main-col { padding-right: 30px; }
 
 
    /* Call To Action Section
